@@ -1,7 +1,6 @@
 
 .header{
     height: 100px;
-
 }
 
 .LoginDiv{
@@ -9,8 +8,15 @@
 }
 
 .logo{
-    float: left;
+    float: left;   
+}
 
+div{
+    font-style: initial;
+}
+.chung{
+    float: left;
+    width: 100%;
     
 }
 #categoryDown {
@@ -23,15 +29,18 @@
     float: left;
     border: solid 5px rgb(0, 255, 255);
     height: 50px;
-    width: 50%;
-    border-radius : 60px;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 10px;
+    border-radius : 10px;
     
 }
 input[type="text"]{
     height: 30px;
     border: none;
-    margin-left: 20px;
-    width: 85%;
+    margin-left: 5px;
+    margin-top: 5px;
+    width: 90%;
     font-size: 24px;
 }
 
@@ -39,17 +48,14 @@ button{
     background-color: #ffffff;
     border: none;
     vertical-align: bottom;
-    width:40px;
-    height:40px;
-
+    width:30px;
+    height:30px;
 }
 
 #searchICon{
-    margin-top:3px;
     border: none;
-    width:40px;
-    height:40px;
-    
+    width:25px;
+    height:28px;
 }
 
 .menu{
@@ -73,7 +79,6 @@ button{
     font-family :Sans-Serif;
     font-size : 25px;
     border-bottom :solid 1px white;
-
 }
 
 .categoryDown {
@@ -110,13 +115,13 @@ a {
     font-size: 25px;
     color : black;
     text-indent: 1em ;
-
-    height:1200px;
 }
 
 
 .jumbotron {
     background-color: white !important;
+    margin-bottom: 0px !important;
+    padding: 0px !important;
 }
 
 main {
@@ -142,25 +147,12 @@ main {
     width: 100% !important;
 }
 
-
-.jumbotron {
-    margin-bottom: 0px !important;
-    padding: 0px !important;
-}
-
-#categoryDown {
+.productBox {
     background-image: url(preview.jpg);
     background-color:black;
-}
-
-#toolCategory {
-    float: left;
-}
-
-.productBox {
-    height: 500px;
-}
-
-.mainPanel{
     height: 350px;
+}
+
+.category{
+    margin-top: 30px;
 }
